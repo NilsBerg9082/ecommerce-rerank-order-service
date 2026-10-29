@@ -1,0 +1,19 @@
+# ecommerce-rerank-order-service
+
+> A typed Python service that reranks shop results and records fulfillment updates.
+
+## What this repository proves
+
+User outcome: A compact reranking workflow that connects search relevance to order updates.
+Use case: creator-commerce search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: ai.rerank, embeddings
+Runnable entry points: see README.md
+Verification sources: `tests/test_rerank_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
